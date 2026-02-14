@@ -8,12 +8,11 @@ const App = () => {
   ]);
 
   return (
-    <div className=" flex w-screen h-screen bg-gray-800 p-10" >
-     
+    <div className=" text-white flex w-screen h-screen bg-gray-800 p-10" >
       <Create todos={todos} setTodos={settodos} />
       <Read todos={todos} setTodos={settodos} />
     </div>
   );
 };
 
-export default App;  
+export default App;
